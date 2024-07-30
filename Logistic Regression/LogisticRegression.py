@@ -86,9 +86,9 @@ correct_smaples = 0
 for batch in test_loader:
     x = batch[0].reshape(batch_size, -1)
     target = batch[1].unsqueeze(dim=1)
-    predication = model.predict(img)
+    predication = model.predict(x)
     correct_smaples += (predication == target).sum().item()
-    num_samples += img.shape[0]
+    num_samples += x.shape[0]
 print(f"Test Accuracy = {correct_smaples/num_samples *100 : .2f}%")
 
 
