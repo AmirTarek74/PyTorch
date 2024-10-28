@@ -30,7 +30,7 @@ This project aims to generate captions for images using a deep learning approach
 
 ## Dataset
 
-The model is trained on the [Flickr8k Images Captions]([https://cocodataset.org/#home](https://www.kaggle.com/datasets/e1cd22253a9b23b073794872bf565648ddbe4f17e7fa9e74766ad3707141adeb)) dataset, which provides images along with captions. You can download the dataset and use it for training.
+The model is trained on the [(Flickr8k Images Captions)]([https://cocodataset.org/#home](https://www.kaggle.com/datasets/e1cd22253a9b23b073794872bf565648ddbe4f17e7fa9e74766ad3707141adeb)) dataset, which provides images along with captions. You can download the dataset and use it for training.
 
 ---
 
